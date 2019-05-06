@@ -1,0 +1,421 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+
+}
+body{
+  height: 5000px;
+  padding-top: 75px;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
+.container{
+  width: 90%;
+  margin: auto;
+
+}
+.full{
+  padding: 100px 0px; 
+}
+.brand{
+  font-size: 24px;
+  font-weight: 300;
+  color: #666;
+  outline: none;
+}
+nav li a{
+  color: #4c4c4c
+}
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  background-color: #fff; 
+  z-index: 1;
+
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+
+}
+.nav ul{
+  display: flex;
+
+}
+.nav li{
+  padding: 0 10px;
+
+}
+#top{
+  background-image: 
+
+url("images/sea.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+object-fit: cover;
+background-attachment: fixed;
+
+
+}
+#top{
+
+  height: 100vh;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+.title h3{
+  font-size: 47px;
+  width: 97%;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+}
+ .intitle  {
+  font-family: 'Raleway', sans-serif;
+  
+  color: #Fff;
+  margin: 30px 0px;
+  text-align: center;
+}
+.button{
+
+  display: flex;
+} 
+.btn1{
+    border: 1px solid black;
+    
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 22px 60px; 
+    margin-right: 18px;
+    border-color: #745cf9;
+    background: #745cf9;
+}
+.btn1:hover{
+  background: #5d47d7;
+  border-color: #5d47d7;
+}
+.btn2{
+  border: 1px solid black;
+  color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 22px 60px;
+  border-color: #fff;
+}
+.btn2:hover{
+  background: #fff;
+  border-color: #fff;
+  color: #222;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+#second{
+  background-color: #Fff; 
+  
+}
+
+.col{
+  width: 50%;
+}
+.photo img{
+  width: 100% ;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 37%;
+  color: #8c979e; 
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 26px;
+}
+.text a{
+width: 50%;
+}
+.text h4{
+  color:#0e1015;
+  font-weight: 400;
+  font-size: 30px;
+}
+.text p{
+  padding: 30px 0px;
+  width: 87%;
+}
+#third{
+  background-color: #8c979e10;
+}
+#third .row{
+  flex-direction: row-reverse;
+}
+#third .btn1{
+  width: 213px;
+}
+#fourth{
+  background-image: 
+
+url("images/sea1.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+object-fit: cover;
+background-attachment: fixed;
+
+
+
+}
+#fourth .title{
+  width: 50%;
+
+}
+#fourth .intitle{
+  width: 86%;
+  margin-left: 7%;
+}
+
+#fifth{
+  background-color: #8c979e10;
+
+}
+#fifth h3{
+  color:#0e1015;
+  font-weight: 400;
+  font-size: 30px;
+}
+#fifth .intitle{
+  color: #8c979e;
+  width: 96%;
+  margin: 30px auto;
+}
+#fifth h3{
+  margin: 0px auto; 
+}
+#fifth a{
+  margin: 0px auto;
+}
+#sixth{
+  background-color: #8c979e10;
+ 
+}
+#sixth img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
+#seven{
+  background-color: #0e1015 ;
+  padding-top: 95px;
+  position: relative;
+    bottom: 5px;
+    /* z-index: -1; */
+}
+  
+ #seven h3{
+   font-size:32px; 
+   margin: 0px auto;
+
+  
+  }
+  .rowmain{
+    display: flex;
+   
+  
+  }
+  .colmain{
+   width: calc(100%/4);
+   position: relative;
+   /* z-index: 1; */
+  
+
+  }
+ 
+  .colmain img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+ .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(230, 228, 228, 0.219);
+    opacity: 0;
+    display: none;
+
+   
+}
+
+.overlay h5{
+  font-size: 24px;
+  color: rgb(207, 205, 205);
+}
+.h5holder{
+  margin-left: 30%;
+  margin-top: 30%;
+}
+
+
+.colmain:hover .overlay{
+  opacity: 1;
+display: block;
+}
+
+
+   #eight {
+    background-image: 
+    url("images/deniz.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+    background-attachment: fixed;
+    position: relative;
+    
+  }
+  #eight h3{
+    font-size: 26px;
+
+  }
+  #eight .intitle {
+    width: 77%;
+    margin-left: 142px;
+  }
+  .phandpholder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.phandpholder img{
+  border: 1px solid;
+  border-radius: 100%;
+  outline: none;
+  object-fit: cover;
+  width: 109px;
+}
+.phandpholder p{
+      color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 7px;
+}
+#eight .second{
+  position: absolute;
+    right: 17%;
+    top: 53%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+#eight .first{
+  position: absolute;
+    left: 17%;
+    top: 53%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+#nine{
+  background-color: #Fff;
+}
+.rowend{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 142px;
+}
+.colend i{
+  font-size: 70px;
+}
+.colend{
+  width: 20%;
+ }
+.rowend .first{
+  color: rgb(156, 156, 240);
+}
+.rowend .second, .fourth{
+  color: rgb(252, 152, 152);
+}
+.rowend .third{
+  color: rgb(228, 168, 253);  
+
+}
+#nine .text.col{
+  width: 100%;
+  text-align: center;
+}
+.rowend .first:hover{
+  color: blue;
+
+}
+.rowend .second:hover{
+  color: red;
+}
+.rowend   .fourth:hover{
+  color: red;
+
+}
+.rowend .third:hover{
+  color: darkviolet;
+}
+#ten{
+   background-color: #8c979e10;
+}
+#ten .full{
+  display: flex;
+  justify-content: space-around;
+}
+#ten .text{
+  width: 625px;
+}
+footer{
+  background-color: #0e1015;
+  height: 200px;
+  line-height: 200px;
+}
+footer p{
+  color: #fff;
+  font-size: 14px;
+
+}
+footer p a{
+  color: rgb(199, 199, 199);
+  font-weight: bold;
+}
+footer i{
+  color: #fff;
+
+}
+
+
+
+
+  
+  
+
+  
+  
+  
+
